@@ -13,3 +13,19 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+
+volume = input("The volume is ")
+
+volume = float(volume)
+
+import math
+
+p = math.pi
+
+radius1 = 3 * volume / 4 / p 
+
+radius = math.pow(radius1, 1.0/3)
+
+radius = float(radius)
+
+print(radius)
